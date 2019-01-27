@@ -26,15 +26,15 @@
         CartCtrl.promo_type="";
         CartCtrl.promo_detail="";
         CartCtrl.promo_item=[
-          {img: 'assets/image1.jpg', english:'Subaru', price:'sh1800000'country:'Kenya', promo_type:'New Product', promo_detail: 'Free delivery'}
-          ,{img: 'assets/image 2.jpg', english:'volvo', price: 'Sh2750000', country:'Thailand', promo_type:'Promotion', promo_detail: '20% cut price offer!'}
+          {img: 'https://github.com/ngangakevin/webassignment/blob/master/webassignment/assets/6364765062470020Qj.jpg', english:'Range Rover', price:'sh18000000'country:'Kenya', promo_type:'New Product', promo_detail: 'Free delivery'}
+          ,{img: 'https://github.com/ngangakevin/webassignment/blob/master/webassignment/assets/216716_New_Volvo_XC40_exterior.0.jpg', english:'volvo', price: 'Sh2750000', country:'Thailand', promo_type:'Promotion', promo_detail: '20% cut price offer!'}
           //extend this according to your promotional needs          
         ];
 
         CartCtrl.catalogue=[
-          {img: 'assets/coffee.jpg', english:'Sedan', Millage:'300000km', price: 'sh2000000', country:'Kenya', promo_type:'', promo_detail: ''}
-          ,{img: 'assets/mocha.jpg', english:'Suv',Millage:'210000km', price: 'sh550000', country:'Kenya', promo_type:'', promo_detail: ''}
-          ,{img: 'assets/coffee.jpg', english:'Truck'  price: 'sh2000000', country:'Kenya', promo_type:'', promo_detail: ''}
+          {img: 'https://github.com/ngangakevin/webassignment/blob/master/webassignment/assets/bus_PNG8615-781x515.png', english:'scania touring', Millage:'300000km', price: 'sh15000000', country:'Kenya', promo_type:'', promo_detail: ''}
+          ,{img: 'https://github.com/ngangakevin/webassignment/blob/master/webassignment/assets/2006_Toyota_Mark-X_01.jpg', english:'Toyota mark x',Millage:'210000km', price: 'sh550000', country:'Kenya', promo_type:'', promo_detail: ''}
+          ,{img: 'https://github.com/ngangakevin/webassignment/blob/master/webassignment/assets/105-11330.jpeg', english:'Honda'  price: 'sh2000000', country:'Kenya', promo_type:'', promo_detail: ''}
           //extend this according to your product needs                
         ];
         
