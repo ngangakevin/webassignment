@@ -95,18 +95,6 @@
             <div class="col-sm-12 col-md-6 col-lg-6 contact-fields" id="contact" style="display:block;">
     
                 <div class="form-row">
-                    <div class="form-group col-md-5">
-                        <label for="inputCompany">Company Name</label>  
-                        <small class="required">required*</small>
-                        <input type="text" class="form-control" id="inputCompany" name = "coyname" placeholder="What's your company name?" required>
-                    </div>
-                    <div class="form-group col-md-7">
-                        <label for="inputEmail">Work Email</label>
-                        <small class="required">required*</small>                        
-                        <input type="email" class="form-control" id="inputEmail" name  ="email_bypass" placeholder="What's your work email?" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
-                    </div>
-                </div>
-    
                 <div class="form-row">
                     <div class="form-group col-md-4">
                         <label for="inputName">Name</label>  
@@ -337,7 +325,7 @@
                         </select>
                     </div>
                     <div class="form-group col-md-4">
-                        <label for="inputPhone">Work Phone</label>
+                        <label for="inputPhone">Phone</label>
                         <small class="required">required*</small>                        
                         <input type="tel" class="form-control" id="inputPhone" name="telephone"  placeholder="Number to reach you?" pattern="\d+" required>
                     </div>
@@ -345,12 +333,17 @@
                     
                 <div class="form-row">
                     <div class="form-group col-md-6">
-                        <label for="inputAddress">Company Address Line 1</label>
-                        <input type="text" class="form-control" id="inputAddress" name="address1"  placeholder="e.g. Block 888 Wealth Street">
+                        <label for="inputAddress">car to buy</label>
+                        <input type="text" class="form-control" id="inputAddress" name="address1"  placeholder="Toyota mark x">
                     </div>
                     <div class="form-group col-md-6">
-                        <label for="inputAddress">Company Address Line 2</label>
-                        <input type="text" class="form-control" id="inputAddress" name="address2"  placeholder="e.g. #01-68 Golden Shopping Mall">
+                        <label for="inputAddress">payment details</label>
+                        <lael for="Cardpayment">Card payment</label>
+                        <input type="radio" class="form-control" id="inputAddress" name="radio"  placeholder="Card number">
+                         <label for="Mpesa">payment details</label>
+                        <input type="radio" id="inputAddress" name="radio"  placeholder="our till; 11233">
+                         <label for="inputAddress">Cash payment</label>
+                        <input type="radio" id="inputAddress" name="radio">
                     </div>
                 </div>
                     
@@ -641,7 +634,7 @@
                 <br>
     
                 <div class="form-group col-md-12" style="color: #00ffff"><!-- submit button -->
-                    <button type="submit" class="btn btn-warning btn-lg btn-block">Submit Discount Request</button>
+                    <button type="submit" class="btn btn-warning btn-lg btn-block">Submit Order</button>
                 </div>
 
 
